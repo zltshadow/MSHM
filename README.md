@@ -30,6 +30,5 @@ Before using the dataset, please visit: https://github.com/LMMMEng/LLD-MMRI-Data
 ```
 
 ## Checkpoints
-```
-Google Drive: 
-```
+
+Google Drive: https://drive.google.com/file/d/1TrHD9dSBLAJbKBMcK_CrSN7u6uagY0Nl/view?usp=sharing
