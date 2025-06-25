@@ -1,5 +1,7 @@
 # MSHM
-Code for Multi-Sequence Hybrid Mamba Classification Model for Tumor Pathological Grade Prediction Using Magnetic Resonance Images
+Code for MultiModal Hybrid Mamba Classification Model for Tumor Pathological Grade Prediction Using Magnetic Resonance Images
+## Network
+![MSHM](fig1.png "MSHM")  
 
 ## requirements
 ```
@@ -28,6 +30,38 @@ python setup.py install
 ```
 Before using the dataset, please visit: https://github.com/LMMMEng/LLD-MMRI-Dataset.
 ```
+### LLD Data Show
+
+The high-level data in the LLD dataset are organized as follows:
+
+- **T1 Images**:  
+  ![T1 Image](data/lld/high/t1.png "T1 Image")  
+  *T1-weighted images provide detailed anatomical information.*
+
+- **T2 Images**:  
+  ![T2 Image](data/lld/high/t2.png "T2 Image")  
+  *T2-weighted images highlight different tissue contrasts and are useful for identifying certain pathologies.*
+
+- **T1C Images**:  
+  ![T1C Image](data/lld/high/t1c.png "T1C Image")  
+  *T1-weighted contrast-enhanced images are crucial for visualizing tumor boundaries and other critical features.*
+
+### LLD Data Show
+
+The low-level data in the LLD dataset are organized as follows:
+
+- **T1 Images**:  
+  ![T1 Image](data/lld/low/t1.png "T1 Image")  
+  *T1-weighted images provide detailed anatomical information.*
+
+- **T2 Images**:  
+  ![T2 Image](data/lld/low/t2.png "T2 Image")  
+  *T2-weighted images highlight different tissue contrasts and are useful for identifying certain pathologies.*
+
+- **T1C Images**:  
+  ![T1C Image](data/lld/low/t1c.png "T1C Image")  
+  *T1-weighted contrast-enhanced images are crucial for visualizing tumor boundaries and other critical features.*
+
 
 ## Checkpoints
 
